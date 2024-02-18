@@ -53,7 +53,8 @@ h1 {
 .buttons {
     display: flex;
     justify-content: center;
-    gap: .4em;
+    gap: .4em;<link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
     margin: 0;
 }
 
