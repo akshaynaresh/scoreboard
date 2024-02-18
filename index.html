@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <div class="score">
+        <h1 id="home-name">HOME</h1>
+        <div class="board">
+          <h1 class="points" id="score-one">0</h1>
+        </div>
+        <div class="buttons">
+          <button class="plus-one" onclick="homePlusOne()">+1</button>
+          <button class="plus-two" onclick="homePlusTwo()">+2</button>
+          <button class="plus-three" onclick="homePlusThree()">+3</button>
+        </div>
+      </div>
+
+      <div class="score">
+        <h1 id="guest-name">GUEST</h1>
+        <div class="board">
+          <h1 class="points" id="score-two">0</h1>
+        </div>
+        <div class="buttons">
+          <button class="plus-one" onclick="guestPlusOne()">+1</button>
+          <button class="plus-two" onclick="guestPlusTwo()">+2</button>
+          <button class="plus-three" onclick="guestPlusThree()">+3</button>
+        </div>
+      </div>
+    </div>
+    <button id="new-game" onclick="newGame()">New Game</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

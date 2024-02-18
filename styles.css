@@ -1,0 +1,83 @@
+body {
+    background-color: #1B244A;
+    color: white;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+#home-name {
+    color: white;
+}
+
+#container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /*border: 2px white solid;*/
+    margin: 0 auto;
+    width: 50em;
+    gap: 10em;
+}
+
+.score {
+    /*border: 2px white solid;*/
+    margin: .5em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.board {
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    width: 30em;
+    height: 15em;
+}
+
+.points {
+    color: #F94F6D;
+    font-size: 10rem;
+    font-family: "Cursed Timer ULiL", serif;
+    padding: .3em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: .4em;
+    margin: 0;
+}
+
+button {
+    border: .1em #9AABD8 solid;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-size: 2em;
+    font-family: "Cursed Timer ULiL", serif;
+    padding: .2em;
+    text-align: center;
+}
+
+button:hover {
+    background-color: cadetblue;
+}
+
+#new-game {
+    font-family: "Roboto", sans-serif;
+    font-size: 4em;
+    display: flex;
+    width: 10em;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
